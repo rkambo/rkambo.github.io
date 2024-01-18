@@ -1,0 +1,5 @@
+## Detail
+
+When I worked as a backend intern a few years ago, I remember when a friend of mine was stuck on a problem that was plaguing him for a couple of hours. I took a look at it and said "Hey, what if you tried this?". His response was, "Wow that's so dumb, but..it worked? But it's so dumb!" And so on. We laughed for a couple of hours too. It was moments like these that inspired me to become a better Software Engineer.
+
+I learned that it wasn't always about applying logic to a problem. You could approach things from a different angle, and it can result in really creative solutions. We're fortunate in the world of development to be able to fail quickly and safely; not just so that we can guarantee the right answer, but for the opportunity to get really imaginative. The best engineers I've worked with were the ones who weren't afraid to get unconventional, and be able to laugh at their innovative ideas. I hold that philosophy with the work that I do so that I can develop meaningful and interesting projects.
