@@ -2993,6 +2993,9 @@ table.alt tbody tr td {
   align-self: center;
 }
 
+.statistics li.head {
+  background-color: #2f6cb2;
+}
 .statistics li.style1 {
   background-color: #efa8b0;
 }
