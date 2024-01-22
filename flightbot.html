@@ -6,7 +6,7 @@
 -->
 <html>
   <head>
-    <title>Blackjack</title>
+    <title>Flight Bot</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -22,56 +22,39 @@
     <div id="wrapper">
       <!-- Header -->
       <header id="header">
-        <h1>Blackjack</h1>
+        <h1>Flight Bot</h1>
       </header>
 
       <!-- Main -->
       <div id="main">
         <!-- Content -->
         <section id="content" class="main">
-          <span class="image main"><img src="blackjack.png" alt="" /></span>
+          <span class="image main"><img src="flightbot.gif" alt="" /></span>
           <h2>Description and Motivation</h2>
           <p>
-            I built an application that allowed a user to play a game of
-            Blackjack in their terminal in the C++ language. This was to give me
-            a bit of exposure to the C++ language and I thought that the most
-            appropriate output of that would be a game; especially one as
-            familiar as Blackjack. C++ is a departure from the languages that
-            I'm familiar with, as after working primarily with C in university,
-            I moved to higher level languages such as Java and Javascript in the
-            workplace.
+            I created an application which allowed users to find cheap flight
+            offers. This was set up with a NodeJS backend that called on the
+            Amadeus API for flight information, and using Discord as a chatbot
+            interface. This came from a curiousity to work with Discords bots,
+            as they have a very large presence on Discord for a large variety of
+            uses.
           </p>
           <h2>Learnings</h2>
           <p>
-            Working with C++ was quite a humbling experience. There are plenty
-            of things that I took for granted with higher level languages that
-            C++ reminded me of from working with C. Mainly, having to use
-            pointers and manage memory myself. Even though I had opportunities
-            to avoid using pointers, I didn't want the overall experience to
-            just be developing something with a different syntax. C++ puts more
-            emphasis on being efficient, as programs in the language are built
-            for low-latency and high performance.
+            This application was formed at a time where API's were no longer as
+            easily accessible to hobbyist developers. Many free tiers for API
+            access were removed. Finding travel API's was also very challenging,
+            as trusted brands such as Expedia either didn't have readily
+            accessible API's or were only making them available through applying
+            for partnerships. I was fortunate in finding the Amadeus API to suit
+            my use cases.
           </p>
           <p>
-            Overall, it was a fun experience. Pointers could get challenging at
-            times, but I learned to appreciate the amount of control they could
-            grant you if understood them. One interesting thing that I learned
-            was that enums are often used in the language, but since there's no
-            good way to get the number of constants in an enum, a workaround
-            that is used in the industry is to create a constant to denote the
-            size of the enum.
-          </p>
-          <p>
-            One interesting thing that I learned was that although enums are
-            often used in the language, there wasn't a clear way to get the
-            number of constants in an enum. I found that a common workaround for
-            this problem was to make a constant at the end of your enum which
-            would end up holding the value of your size. So, if your enum had 3
-            constants and it started from index 0, the num_of_constants would be
-            3. This would mean that any time you insert into the enum, the
-            num_of_constants would get updated accordingly. I found it so
-            interesting that a creative solution like this came in the face of a
-            constraint with the language.
+            Working with the Discord API could definitely be challenging at
+            times. Navigating the documentation was tricky, as it could get very
+            dense. Still, getting exposed to Discord bots proved beneficial, as
+            it can be a good candidate for a user frontend instead of creating a
+            full user interface.
           </p>
         </section>
       </div>
