@@ -1,3 +1,3 @@
-## ravikambo.github.io
+## rkambo.github.io
 
 Personal Website
